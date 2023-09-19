@@ -1,6 +1,6 @@
 # A Simple Shell Project
 
-This is a SimpleShell project written in C. It imitates a basic shell that allows you to execute commands and manage processes.
+This is a SimpleShell project written in C. THe shell imitates a basic shell (unix environment) that allows you to execute commands and manage processes.
 
 ## Features
 
@@ -17,20 +17,23 @@ This is a SimpleShell project written in C. It imitates a basic shell that allow
 - Unix-like operating system (Linux, macOS)
 
 ### Clone the Repository
-
+Clone into the repository by putting this into your terminal;
 ```shell
-git clone https://github.com/anncarl/simple_shell.git 
+git clone https://github.com/NatashaMuhanji/simple_shell.git 
 ```
+
 ### Compile the Code
+After cloning, change into the directory;
 ```
-cd SimpleShell
+cd simple_shell
 ```
-then
+after which you will run this while in the repository;
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o
 ```
 
 ### Run the Shell
+To work the shell in interactive mode, run `./hsh`
 ```
 ./hsh
 ```
