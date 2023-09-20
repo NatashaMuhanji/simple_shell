@@ -5,13 +5,6 @@
  *@dest:final str to be duplicated to
  *@src:  src str
  *@n:  amt of char to be dublicated
-#include "shell.h"
-
-/**
- **_strncpy -dublicates str.
- *@dest:final str to be duplicated to
- *@src:  src str
- *@n:  amt of char to be dublicated
  *Return: returns concatenated str.
  */
 char *_strncpy(char *dest, char *src, int n)
